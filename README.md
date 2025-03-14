@@ -19,27 +19,32 @@ A command-line tool to fetch and filter research papers from **PubMed**, identif
 - **Poetry (Dependency Manager)** → Install with:  
   ```sh
   pip install poetry
-
 Git → (Required for version control)
 
 Clone the Repository
 
 ```sh
 git clone https://github.com/ShaikShabeena5E7/pubmed-paper-fetcher.git
-
+```
 navigate to the origin folder
 
 cd pubmed-paper-fetcher
 ---------------------------------------
 Install Dependencies
+```sh
 poetry install
+```
 ---------------------------------------
-For fetching: run below in terminal 
+For fetching: run below in terminal
+
+```sh
 poetry run python fetch_papers.py -q "biotechnology"
-
+```
 For saving the csv file
+```sh
 poetry run python fetch_papers.py -q "cancer research" -f "cancer_papers.csv"
-
+```
 For debug mode:
+```sh
 poetry run python fetch_papers.py -q "genomics" -d
-
+```
