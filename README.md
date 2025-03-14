@@ -35,7 +35,7 @@ Install Dependencies
 poetry install
 ```
 ---------------------------------------
-For fetching: run below in terminal
+For fetching: run the below command in vs code terminal
 
 ```sh
 poetry run python fetch_papers.py -q "biotechnology"
