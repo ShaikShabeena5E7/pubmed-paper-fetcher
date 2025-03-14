@@ -32,7 +32,6 @@ navigate to the origin folder
 cd pubmed-paper-fetcher
 ---------------------------------------
 Install Dependencies
-
 poetry install
 ---------------------------------------
 For fetching: run below in terminal 
@@ -41,6 +40,6 @@ poetry run python fetch_papers.py -q "biotechnology"
 For saving the csv file
 poetry run python fetch_papers.py -q "cancer research" -f "cancer_papers.csv"
 
-Fr debg mode:
+For debug mode:
 poetry run python fetch_papers.py -q "genomics" -d
 
